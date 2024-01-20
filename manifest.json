@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Vim-keys",
+    "version": "1.0",
+    "description": "Adds Vim-style shortcuts for scrolling pages, both vertically and horizontally. Use alt+[h | j | k | l] for navigation.",
+    "author": "bea-codes",
+    "homepage_url": "",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["main.js"]
+        }
+    ]
+
+}
